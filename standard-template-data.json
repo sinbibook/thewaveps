@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.8.0",
-    "generatedAt": "2025-12-16T06:38:23.757Z",
+    "version": "1.9.0",
+    "generatedAt": "2025-12-16T06:54:30.549Z",
     "templateType": "full_banner_slider_group",
     "propertyId": "c8896d7f-56df-47bd-9fbe-4596905745eb",
     "homepageId": "7da4918a-551f-4f53-8100-6b0f251ebeed"
@@ -212,31 +212,37 @@
         "images": [
           {
             "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/842be25b-2137-4a9f-bce9-35ebdc3019fe/main/1765866921190-lez2zvdvzjd.jpg",
-            "sortOrder": 3,
-            "description": "",
-            "isSelected": true
-          },
-          {
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/842be25b-2137-4a9f-bce9-35ebdc3019fe/main/1765866921190-dn50li97uzb.jpg",
-            "sortOrder": 0,
-            "description": "",
-            "isSelected": true
-          },
-          {
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/842be25b-2137-4a9f-bce9-35ebdc3019fe/main/1765866921190-wwn07run3f.jpg",
             "sortOrder": 4,
             "description": "",
             "isSelected": true
           },
           {
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/842be25b-2137-4a9f-bce9-35ebdc3019fe/main/1765866921190-j654rfatrdi.jpg",
-            "sortOrder": 2,
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/842be25b-2137-4a9f-bce9-35ebdc3019fe/main/1765867788798-38p0u264elv.jpg",
+            "sortOrder": 0,
+            "description": "동해의 정취가 가득한 속초의 여행 필수코스",
+            "isSelected": true
+          },
+          {
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/842be25b-2137-4a9f-bce9-35ebdc3019fe/main/1765866921190-dn50li97uzb.jpg",
+            "sortOrder": 1,
             "description": "",
             "isSelected": true
           },
           {
             "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/842be25b-2137-4a9f-bce9-35ebdc3019fe/main/1765866921190-550mfmwwup5.jpg",
-            "sortOrder": 1,
+            "sortOrder": 2,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/842be25b-2137-4a9f-bce9-35ebdc3019fe/main/1765866921190-j654rfatrdi.jpg",
+            "sortOrder": 3,
+            "description": "",
+            "isSelected": true
+          },
+          {
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/842be25b-2137-4a9f-bce9-35ebdc3019fe/main/1765866921190-wwn07run3f.jpg",
+            "sortOrder": 5,
             "description": "",
             "isSelected": true
           }
@@ -3528,7 +3534,28 @@
           ]
         },
         "room": [],
-        "facility": [],
+        "facility": [
+          {
+            "id": "842be25b-2137-4a9f-bce9-35ebdc3019fe",
+            "sections": [
+              {
+                "hero": {
+                  "title": "",
+                  "images": []
+                },
+                "about": {
+                  "title": "",
+                  "images": []
+                },
+                "experience": {
+                  "benefits": [],
+                  "features": [],
+                  "additionalInfos": []
+                }
+              }
+            ]
+          }
+        ],
         "reservation": {
           "sections": [
             {

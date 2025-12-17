@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.11.0",
-    "generatedAt": "2025-12-17T01:18:57.968Z",
+    "version": "1.12.0",
+    "generatedAt": "2025-12-17T09:52:56.193Z",
     "templateType": "full_banner_slider_group",
     "propertyId": "c8896d7f-56df-47bd-9fbe-4596905745eb",
     "homepageId": "7da4918a-551f-4f53-8100-6b0f251ebeed"
@@ -1799,9 +1799,9 @@
     },
     {
       "id": "cb6dff22-6763-469c-b4b4-48b603f2c3e5",
-      "name": "206호(마운틴뷰, 조식무료, 해변테라스)",
-      "description": "[인원추가(1박기준/현장결제)]\n- 12개월 이상 1인 20,000원\n- 12개월 미만은 무료이나 인원에는 포함\n- 최대인원 초과입실은 불가합니다.\n- 오션뷰 객실(최대인원 3인)은 예약전 펜션측에 사전 협조 시 직계가족 15세 미만 자녀에 한하여 2명까지 추가 입실 허용됩니다.",
-      "roomInfo": "[인원추가(1박기준/현장결제)]\n- 12개월 이상 1인 20,000원\n- 12개월 미만은 무료이나 인원에는 포함\n- 최대인원 초과입실은 불가합니다.\n- 오션뷰 객실(최대인원 3인)은 예약전 펜션측에 사전 협조 시 직계가족 15세 미만 자녀에 한하여 2명까지 추가 입실 허용됩니다.",
+      "name": "206호(마운틴뷰, 조식무료, 테라스)",
+      "description": "",
+      "roomInfo": "[인원추가(1박기준/현장결제)]\n- 12개월 이상 1인 20,000원\n- 12개월 미만은 무료이나 인원에는 포함\n- 최대인원 초과입실은 불가합니다.",
       "group": "마운틴뷰",
       "size": 1,
       "baseOccupancy": 3,
@@ -2426,7 +2426,7 @@
     },
     {
       "id": "d0ceaec1-2bb4-4d83-bd4c-6cc40058f16c",
-      "name": "305호(마운틴뷰, 조식무료, 해변테라스)",
+      "name": "305호(마운틴뷰, 조식무료, 테라스)",
       "description": "",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 12개월 이상 1인 20,000원\n- 12개월 미만은 무료이나 인원에는 포함\n- 최대인원 초과입실은 불가합니다.",
       "group": "마운틴뷰",
@@ -2611,7 +2611,7 @@
     },
     {
       "id": "77f1c362-2527-4d6a-b0ce-a56663a79569",
-      "name": "306호(마운틴뷰, 조식무료, 해변테라스)",
+      "name": "306호(마운틴뷰, 조식무료, 테라스)",
       "description": "",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 12개월 이상 1인 20,000원\n- 12개월 미만은 무료이나 인원에는 포함\n- 최대인원 초과입실은 불가합니다.",
       "group": "마운틴뷰",
@@ -2782,7 +2782,7 @@
     },
     {
       "id": "c8dc806a-8f70-4b70-9c4a-a19cb10a978f",
-      "name": "405호(마운틴뷰, 조식무료, 해변테라스)",
+      "name": "405호(마운틴뷰, 조식무료, 테라스)",
       "description": "",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 12개월 이상 1인 20,000원\n- 12개월 미만은 무료이나 인원에는 포함\n- 최대인원 초과입실은 불가합니다.",
       "group": "마운틴뷰",
@@ -2946,7 +2946,7 @@
     },
     {
       "id": "a906b7fc-2e29-43ae-88d4-9a795a4e2a2a",
-      "name": "406호(마운틴뷰, 조식무료, 해변테라스)",
+      "name": "406호(마운틴뷰, 조식무료, 테라스)",
       "description": "",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 12개월 이상 1인 20,000원\n- 12개월 미만은 무료이나 인원에는 포함\n- 최대인원 초과입실은 불가합니다.",
       "group": "마운틴뷰",
@@ -3168,142 +3168,100 @@
                     "isSelected": true
                   },
                   {
-                    "id": "eecc36b3-a74c-47b8-916e-dbf16c2ee05d",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765524820073-mkta605znvh.jpeg",
-                    "sortOrder": 3,
-                    "description": "",
-                    "isSelected": false
-                  },
-                  {
-                    "id": "60531827-7d91-4fb0-b05f-278f127b86bb",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-4omu2y9fuxy.jpg",
-                    "sortOrder": 4,
-                    "description": "",
-                    "isSelected": false
-                  },
-                  {
                     "id": "d9fbf05b-64fe-416f-93a8-dba86631805b",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878862-lo3xpxr9xlf.jpg",
-                    "sortOrder": 5,
+                    "sortOrder": 3,
                     "description": "",
                     "isSelected": false
                   },
                   {
                     "id": "76f1f553-b266-493a-862a-fb55c64425a5",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878862-3um96m96ptk.jpg",
-                    "sortOrder": 6,
+                    "sortOrder": 4,
+                    "description": "",
+                    "isSelected": true
+                  },
+                  {
+                    "id": "778e3f8c-aae7-4f28-bd27-91d8d5ff8a8f",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765965148930-ax2bc93vmqd.jpg",
+                    "sortOrder": 5,
                     "description": "",
                     "isSelected": true
                   },
                   {
                     "id": "341c4bcd-42be-4305-a497-89acbdcebed8",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-ifpamwnk5v.jpg",
-                    "sortOrder": 7,
+                    "sortOrder": 6,
                     "description": "",
                     "isSelected": true
                   },
                   {
                     "id": "58bd8fda-1b6b-40cb-906a-da7055b66018",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878862-twy8h5z8u4.jpg",
-                    "sortOrder": 8,
+                    "sortOrder": 7,
                     "description": "",
                     "isSelected": false
                   },
                   {
                     "id": "8c481396-7517-4255-aece-73cec03157c3",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-4hzlzwkiaal.jpg",
-                    "sortOrder": 9,
+                    "sortOrder": 8,
                     "description": "",
                     "isSelected": false
                   },
                   {
                     "id": "479766d2-d5c4-4bdc-94bd-99187ac7ae6c",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-atc25xn0x0m.jpg",
-                    "sortOrder": 10,
+                    "sortOrder": 9,
                     "description": "",
                     "isSelected": false
                   },
                   {
                     "id": "1826a0b2-e682-4672-b025-6bbaa8ac3099",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-qus85tej07.jpg",
-                    "sortOrder": 11,
+                    "sortOrder": 10,
                     "description": "",
                     "isSelected": false
                   },
                   {
                     "id": "46b80793-5d2e-4437-8099-98a61e020ed1",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-vkaqz2p9u7i.jpg",
-                    "sortOrder": 12,
+                    "sortOrder": 11,
                     "description": "",
                     "isSelected": true
                   },
                   {
                     "id": "cf2b7ba3-4743-4c1a-8e17-85b304435fe7",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-iilfxkpqt8.jpg",
-                    "sortOrder": 13,
-                    "description": "",
-                    "isSelected": true
-                  },
-                  {
-                    "id": "8e3fb192-ac87-49cd-89ee-69edb507f9a2",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-0hpt7g7rea5o.jpg",
-                    "sortOrder": 14,
+                    "sortOrder": 12,
                     "description": "",
                     "isSelected": true
                   },
                   {
                     "id": "d21b7eaa-c4a9-445a-bacc-edb07ad84bb8",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-mx4ubienil.jpg",
-                    "sortOrder": 15,
+                    "sortOrder": 13,
                     "description": "",
                     "isSelected": true
                   },
                   {
-                    "id": "190d55fd-27a2-4620-b9ac-1e17e5260873",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-d1qabdme48.jpg",
-                    "sortOrder": 16,
-                    "description": "",
-                    "isSelected": false
-                  },
-                  {
-                    "id": "8d2e2389-2bfb-4910-b9a9-c0ff51afc62b",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-zog6jkdm8lk.jpg",
-                    "sortOrder": 17,
-                    "description": "",
-                    "isSelected": false
-                  },
-                  {
-                    "id": "ea83e4fb-9959-4b7c-8ea7-28cc74741c30",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-iejghcshza.jpg",
-                    "sortOrder": 18,
-                    "description": "",
-                    "isSelected": false
-                  },
-                  {
                     "id": "38408f3d-bc58-41b2-9712-0f2b3bbee1c4",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-iiqusrm5pe.jpg",
-                    "sortOrder": 19,
+                    "sortOrder": 14,
                     "description": "",
                     "isSelected": false
                   },
                   {
                     "id": "13deda0b-872e-48a4-b5fd-f536e7d75e87",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-jbb525r05re.jpg",
-                    "sortOrder": 20,
+                    "sortOrder": 15,
                     "description": "",
                     "isSelected": false
                   },
                   {
                     "id": "dcdefa0d-9424-4d89-88eb-bffe336e2f6a",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765454878863-9krp7yebrz.jpg",
-                    "sortOrder": 21,
-                    "description": "",
-                    "isSelected": false
-                  },
-                  {
-                    "id": "b8f51ab8-4a2a-45ea-815b-44e204750cf2",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/index_hero/1765524820073-0og120d5lcjb.jpg",
-                    "sortOrder": 22,
+                    "sortOrder": 16,
                     "description": "",
                     "isSelected": false
                   }

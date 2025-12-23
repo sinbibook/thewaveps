@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.17.0",
-    "generatedAt": "2025-12-18T06:19:56.778Z",
+    "version": "1.18.0",
+    "generatedAt": "2025-12-23T08:51:35.077Z",
     "templateType": "full_banner_slider_group",
     "propertyId": "c8896d7f-56df-47bd-9fbe-4596905745eb",
     "homepageId": "7da4918a-551f-4f53-8100-6b0f251ebeed"
@@ -463,7 +463,7 @@
     "nameEn": "Goseong The Wave Pension",
     "domain": "thewaveps.kr",
     "realtimeBookingId": "9992",
-    "ybsId": ""
+    "ybsId": "75186"
   },
   "rooms": [
     {
@@ -1410,7 +1410,7 @@
       "description": "원룸형 : 거실(퀸1)+주방+화장실1+테라스",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 12개월 이상 1인 20,000원\n- 12개월 미만은 무료이나 인원에는 포함\n- 최대인원 초과입실은 불가합니다.\n- 오션뷰 객실(최대인원 3인)은 예약전 펜션측에 사전 협조 시 직계가족 15세 미만 자녀에 한하여 2명까지 추가 입실 허용됩니다.",
       "group": "오션뷰",
-      "size": 51,
+      "size": 33,
       "baseOccupancy": 2,
       "maxOccupancy": 3,
       "totalRoomCount": {
@@ -2535,7 +2535,7 @@
       "description": "",
       "roomInfo": "[인원추가(1박기준/현장결제)]\n- 12개월 이상 1인 20,000원\n- 12개월 미만은 무료이나 인원에는 포함\n- 최대인원 초과입실은 불가합니다.",
       "group": "마운틴뷰",
-      "size": 1,
+      "size": 52,
       "baseOccupancy": 3,
       "maxOccupancy": 4,
       "totalRoomCount": {

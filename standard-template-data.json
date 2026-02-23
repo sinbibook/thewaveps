@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.21.0",
-    "generatedAt": "2026-01-27T09:05:19.879Z",
+    "version": "1.22.0",
+    "generatedAt": "2026-02-23T07:58:01.276Z",
     "templateType": "full_banner_slider_group",
     "propertyId": "c8896d7f-56df-47bd-9fbe-4596905745eb",
     "homepageId": "7da4918a-551f-4f53-8100-6b0f251ebeed"
@@ -46,10 +46,10 @@
       "businessNumber": "263-29-01601",
       "representativeName": "양순목",
       "businessAddress": "강원특별자치도 고성군 토성면 토성로 110",
-      "businessPhone": "",
-      "businessEmail": "",
-      "businessType": "",
-      "businessCategory": "",
+      "businessPhone": "010-4528-2723",
+      "businessEmail": "1234@naver.com",
+      "businessType": "individual",
+      "businessCategory": "생활숙박시설",
       "eCommerceRegistrationNumber": ""
     },
     "contractInfo": {
@@ -3748,7 +3748,29 @@
         }
       },
       "popup": {
-        "popups": []
+        "popups": [
+          {
+            "id": "606b2969-f25b-476d-8640-4cb189138967",
+            "link": "",
+            "title": "",
+            "images": [
+              {
+                "id": "93035cf4-00bf-419e-99a6-b20083cf66d1",
+                "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/7da4918a-551f-4f53-8100-6b0f251ebeed/popup/1771833462590-8hf5jhxhftf.png",
+                "sortOrder": 0,
+                "description": "",
+                "isSelected": true,
+                "blockId": "606b2969-f25b-476d-8640-4cb189138967"
+              }
+            ],
+            "slider": false,
+            "enabled": true,
+            "endDate": null,
+            "sortOrder": 0,
+            "startDate": null,
+            "description": ""
+          }
+        ]
       },
       "property": {
         "images": [
@@ -6376,6 +6398,7 @@
           ]
         }
       ]
-    }
+    },
+    "id": "7da4918a-551f-4f53-8100-6b0f251ebeed"
   }
 }

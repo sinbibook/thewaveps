@@ -590,6 +590,9 @@ class HeaderFooterMapper extends BaseDataMapper {
         // Header 매핑
         this.mapHeaderLogo();
         this.mapHeaderNavigation();
+
+        // About 메뉴에 동적 페이지 추가
+        this.mapAboutMenuItems();
     }
 
     /**
@@ -621,6 +624,75 @@ class HeaderFooterMapper extends BaseDataMapper {
             this.mapHeader(),
             this.mapFooter()
         ]);
+    }
+
+    /**
+     * 메뉴 아이템 제거 (기존 항목 정리)
+     */
+    removeMenuItems(container, pages) {
+        if (!container) return;
+        pages.forEach(page => {
+            const item = container.querySelector(`[data-menu-id="${page.id}"]`);
+            if (item) item.remove();
+        });
+    }
+
+    /**
+     * 메뉴 아이템 추가
+     */
+    addMenuItems(container, pages, className) {
+        if (!container) return;
+        pages.forEach(page => {
+            if (page.enabled) {
+                const button = document.createElement('button');
+                button.className = className;
+                button.setAttribute('data-menu-id', page.id);
+                button.textContent = page.name;
+                button.onclick = () => { window.location.href = page.path; };
+                container.appendChild(button);
+            }
+        });
+    }
+
+    /**
+     * About 메뉴에 layout-map, nearby-attractions 동적 추가
+     */
+    mapAboutMenuItems() {
+        const aboutMenu = document.querySelector('[data-menu="about"]');
+        if (!aboutMenu) return;
+
+        const submenu = aboutMenu.closest('.menu-item-wrapper')?.querySelector('.submenu');
+        if (!submenu) return;
+
+        const customPages = [
+            {
+                name: '주변 관광지',
+                id: 'nearby-attractions',
+                path: 'nearby-attractions.html',
+                enabled: this.safeGet(this.data, 'homepage.customFields.pages.nearbyAttractions.sections.0.enabled')
+            },
+            {
+                name: '숙소 배치도',
+                id: 'layout-map',
+                path: 'layout-map.html',
+                enabled: this.safeGet(this.data, 'homepage.customFields.pages.layoutMap.sections.0.enabled')
+            }
+        ];
+
+        // Desktop 메뉴 업데이트
+        this.removeMenuItems(submenu, customPages);
+        this.addMenuItems(submenu, customPages, 'submenu-item');
+
+        // Mobile 메뉴 업데이트
+        const mobileAboutSection = document.querySelector('.mobile-menu-section');
+        if (!mobileAboutSection) return;
+
+        const mobileAboutHeader = mobileAboutSection.querySelector('.mobile-accordion-header');
+        if (!mobileAboutHeader || !mobileAboutHeader.textContent.includes('About')) return;
+
+        const mobileAboutItems = mobileAboutSection.querySelector('.mobile-sub-items');
+        this.removeMenuItems(mobileAboutItems, customPages);
+        this.addMenuItems(mobileAboutItems, customPages, 'mobile-sub-item');
     }
 
     /**

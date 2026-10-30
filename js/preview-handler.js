@@ -486,6 +486,13 @@ if (typeof window.PreviewHandler === 'undefined') {
                         mapper = new LayoutMapMapper();
                     }
                     break;
+                case 'room-list':
+                    // 그룹 객실 목록 (room-list.html?group=그룹명). 그룹은 URL 파라미터로 고르고
+                    // 객실은 어드민이 보낸 rooms[].group 으로 거른다
+                    if (window.RoomListMapper) {
+                        mapper = new RoomListMapper();
+                    }
+                    break;
                 default:
                     return;
             }
@@ -862,7 +869,8 @@ if (typeof window.PreviewHandler === 'undefined') {
                 'reservation': 'ReservationMapper',
                 'directions': 'DirectionsMapper',
                 'nearbyAttractions': 'NearbyAttractionsMapper',
-                'layoutMap': 'LayoutMapMapper'
+                'layoutMap': 'LayoutMapMapper',
+                'room-list': 'RoomListMapper'
             };
 
             const mapperClass = mapperConfig[currentPage];
@@ -948,6 +956,9 @@ if (typeof window.PreviewHandler === 'undefined') {
             if (path.endsWith('/directions.html')) return 'directions';
             if (path.endsWith('/nearby-attractions.html')) return 'nearbyAttractions';
             if (path.endsWith('/layout-map.html')) return 'layoutMap';
+            // 그룹 객실 목록 — 없으면 index 로 떨어져 어드민 프리뷰에서 목록이 어드민 데이터로 다시 그려지지 않았다
+            // (헤더 그룹 메뉴는 보이는데 눌러 들어가면 "해당 그룹의 객실이 없습니다")
+            if (path.endsWith('/room-list.html')) return 'room-list';
 
             // 루트 경로 또는 기본값으로 index 처리
             return 'index';

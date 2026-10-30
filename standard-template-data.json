@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.54.0",
-    "generatedAt": "2026-10-30T06:36:11.088230207Z",
+    "version": "1.55.0",
+    "generatedAt": "2026-10-30T06:36:33.915736835Z",
     "templateType": "full_banner_slider_group",
     "propertyId": "c8896d7f-56df-47bd-9fbe-4596905745eb",
     "homepageId": "7da4918a-551f-4f53-8100-6b0f251ebeed"
@@ -29,6 +29,9 @@
     "domain": "thewaveps.kr",
     "realtimeBookingId": "https://map.naver.com/p/entry/place/1233903968",
     "ybsId": "75186",
+    "tripPropertyId": "9992",
+    "partnerType": "distributor_b",
+    "tripProviderName": "(주)신비서",
     "amenities": [
       "주차장",
       "흡연구역(지정장소)"
@@ -442,10 +445,7 @@
         "surrounding": [ ],
         "commonArea": [ ]
       }
-    ],
-    "tripPropertyId": "9992",
-    "partnerType": "distributor_b",
-    "tripProviderName": "(주)신비서"
+    ]
   },
   "rooms": [
     {

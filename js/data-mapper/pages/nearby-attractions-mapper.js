@@ -190,7 +190,8 @@ class NearbyAttractionsMapper extends BaseDataMapper {
 
     /**
      * Closing 배경 이미지 매핑
-     * property.images.0.exterior 배열의 첫 번째 이미지 사용
+     * 홈페이지 빌더 외경(customFields.property.images, category: property_exterior) 첫 장을 쓰고,
+     * 없으면 예전 위치(property.images.0.exterior)를 쓴다. 다른 페이지(getPropertyImages)와 같은 기준이다.
      */
     mapClosingImage() {
         if (!this.isDataLoaded) return;
@@ -198,8 +199,11 @@ class NearbyAttractionsMapper extends BaseDataMapper {
         const closingBgElement = this.safeSelect('[data-nearby-closing-image-bg]');
         if (!closingBgElement) return;
 
-        // 숙소 외경 이미지 데이터 가져오기
-        const exteriorImages = this.safeGet(this.data, 'property.images.0.exterior');
+        // 숙소 외경 이미지 — 빌더(customFields) 우선, 없으면 예전 property.images[0].exterior
+        const builderExterior = this.getPropertyImages('property_exterior');
+        const exteriorImages = builderExterior.length
+            ? builderExterior
+            : this.safeGet(this.data, 'property.images.0.exterior');
 
         if (exteriorImages && exteriorImages.length > 0) {
             // sortOrder로 정렬
